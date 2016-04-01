@@ -1,0 +1,1154 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+Process ID: 2256
+
+Current time: 	3/31/16 11:39:16 PM GMT-03:00
+Time zone: 	GMT-03:00 (GMT-03:00)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	Dcc
+User home directory: C:/Users/Dcc
+User working directory: C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+Vivado preferences path: C:/Users/Dcc/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/Dcc/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	223 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 346 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 35 MB (+34639kb) [00:00:17]
+// [Engine Memory]: 341 MB (+205642kb) [00:00:17]
+// aH:y (cq:JFrame): Older Project Version: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 346 MB. GUI used memory: 24 MB. Current time: 3/31/16 11:39:18 PM GMT-03:00
+selectRadioButton(PAResourceTtoZ.UpgradeProjectDialog_OPEN_PROJECT_IN_READ_ONLY_MODE, "Open project in read-only mode"); // a:JRadioButton (JPanel:JComponent, aH:y)
+selectRadioButton(PAResourceTtoZ.UpgradeProjectDialog_AUTOMATICALLY_UPGRADE_TO_CURRENT, "Automatically upgrade to the current version"); // a:JRadioButton (JPanel:JComponent, aH:y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aH:y)
+// Opening Vivado Project: C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.xpr. Version: Vivado v2015.2 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// [Engine Memory]: 361 MB (+3257kb) [00:00:42]
+dismissDialog("Older Project Version"); // aH:y (cq:JFrame)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.xpr} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Allmoz/Desktop/Proyecto Base' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'Proyecto Base.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 45 MB (+8362kb) [00:00:56]
+// [Engine Memory]: 402 MB (+24695kb) [00:00:56]
+// [Engine Memory]: 426 MB (+4163kb) [00:01:03]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 429 MB. GUI used memory: 29 MB. Current time: 3/31/16 11:40:06 PM GMT-03:00
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: Proyecto Base; location: C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:56 ; elapsed = 00:00:35 . Memory (MB): peak = 734.027 ; gain = 67.348 
+// Elapsed time: 35 seconds
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// [GUI Memory]: 49 MB (+2115kb) [00:01:17]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 52 MB (+34kb) [00:02:08]
+// [GUI Memory]: 55 MB (+306kb) [00:14:06]
+// [Engine Memory]: 458 MB (+11185kb) [00:15:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 29 MB. Current time: 3/31/16 11:54:44 PM GMT-03:00
+// [GUI Memory]: 58 MB (+169kb) [00:35:54]
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 29 MB. Current time: 4/1/16 12:24:45 AM GMT-03:00
+// [GUI Memory]: 61 MB (+39kb) [01:00:52]
+// [GUI Memory]: 64 MB (+216kb) [01:01:37]
+// PAPropertyPanels.initPanels (ALU.vhd) elapsed time: 0.6s
+// Elapsed time: 3785 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALU - Behavioral (ALU.vhd)]", 2, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALU - Behavioral (ALU.vhd)]", 2, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALU - Behavioral (ALU.vhd)]", 2, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// [GUI Memory]: 68 MB (+1202kb) [01:04:32]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Reg - Behavioral (Reg.vhd)]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Reg - Behavioral (Reg.vhd)]", 3, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("Reg.vhd", 156, 106); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("Reg.vhd", 1, 211); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Reg.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("ALU.vhd", 29, 197); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 56, 213); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 56, 213, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("ALU.vhd", 57, 214); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 57, 214, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("Reg.vhd", 107, 213); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Reg.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// [GUI Memory]: 74 MB (+2316kb) [01:05:37]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("ALU.vhd", 58, 209); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 34, 243); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 34, 243, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("ALU.vhd", 81, 245); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 81, 245, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("ALU.vhd", 61, 175); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 61, 175, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("Reg.vhd", 67, 95); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_SAVE_ALL_FILES, "Save All Files..."); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_SAVE_ALL_FILES
+// o:G (cq:JFrame): Text Changed: addNotify
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, o:G)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Text Changed"); // o:G (cq:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("ALU.vhd", 55, 180); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("Reg.vhd", 71, 110); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Reg.vhd", 113, 161); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Reg.vhd", 83, 125); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Reg.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 75, 93); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 78, 103); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 85, 107); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 78, 115); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 9, 110); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 78 MB (+602kb) [01:07:13]
+selectCodeEditor("ALU.vhd", 117, 98); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 111, 95); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("ALU.vhd", 26, 110); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 46, 159); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 46, 159, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("ALU.vhd", 83, 157); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 111, 174); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 58, 109); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 58, 109, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("ALU.vhd", 104, 112); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 110, 126); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 80, 143); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 175, 110); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "ALU.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 189, 107); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 112, 95); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 111, 130); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 103, 163); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 105, 193); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 117, 233); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 107, 262); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 203, 245); // bl:J (JPanel:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_SAVE_ALL_FILES, "Save All Files..."); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_SAVE_ALL_FILES
+// o:G (cq:JFrame): Text Changed: addNotify
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, o:G)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Text Changed"); // o:G (cq:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("ALU.vhd", 172, 115); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 51 seconds
+selectCodeEditor("ALU.vhd", 182, 143); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 194, 172); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 188, 180); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("ALU.vhd", 195, 197); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("ALU.vhd", 180, 146); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("ALU.vhd", 193, 181); // bl:J (JPanel:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_SAVE_FILE, "Save File"); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, ALU.vhd]", 2, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, ALU.vhd]", 2, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, ALU.vhd]", 2, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectTab((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 10); // ag:k (JViewport:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 159, 199); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cq:JFrame): Add Sources: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 479 MB. GUI used memory: 35 MB. Current time: 4/1/16 12:50:22 AM GMT-03:00
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (H:JPanel, b:g)
+// I:x (b:g): Create Source File: addNotify
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "HalfAdder"); // ao:JTextField (JPanel:JComponent, I:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:x)
+dismissDialog("Create Source File"); // I:x (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'g' command handler elapsed time: 30 seconds
+dismissDialog("Add Sources"); // b:g (cq:JFrame)
+// Tcl Message: close [ open {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/HalfAdder.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/HalfAdder.vhd}} 
+// bF:g (cq:JFrame):  Add Sources  : addNotify
+// L:x (cq:JFrame): Define Module: addNotify
+dismissDialog("Add Sources"); // bF:g (cq:JFrame)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, "in", 1); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 0, "Direction", 1); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, "false", 2); // ab:v (m:JViewport, L:x)
+selectTableHeader(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "MSB", 3); // ab:v (m:JViewport, L:x)
+// [Engine Memory]: 483 MB (+1900kb) [01:12:04]
+selectTableHeader(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "LSB", 4); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; true ; 0 ; 0", 0, "0", 3); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 0, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; true ; 0 ; 0", 0, "0", 3); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "15", 0, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; true ; 15 ; 0", 0, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 0, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B", 1, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B ; in ; false ; 0 ; 0", 1, "false", 2); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B ; in ; true ; 0 ; 0", 1, "0", 3); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "15", 1, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, "in", 1); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 2, "Direction", 1); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; out ; false ; 0 ; 0", 2, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S", 2, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; out ; false ; 0 ; 0", 2, "false", 2); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "15", 0, "MSB", 3); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "15", 2, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A ; in ; true ; 15 ; 0", 0, "15", 3); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "16", 0, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A ; in ; true ; 16 ; 0", 0, "true", 2); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B ; in ; true ; 15 ; 0", 1, "true", 2); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A ; in ; false ; 16 ; 0", 0, "false", 2); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A ; in ; true ; 16 ; 0", 0, "16", 3); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 0, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A ; in ; true ; 0 ; 0", 0, "true", 2); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B ; in ; false ; 15 ; 0", 1, "false", 2); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B ; in ; true ; 15 ; 0", 1, "15", 3); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 1, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; out ; true ; 15 ; 0", 2, "15", 3); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; out ; true ; 0 ; 0", 2, "true", 2); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B ; in ; true ; 0 ; 0", 1, "true", 2); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B", 1, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 3, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "C", 3, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "C ; in ; false ; 0 ; 0", 3, "in", 1); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 3, "Direction", 1); // ab:v (m:JViewport, L:x)
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:x)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // L:x (cq:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HalfAdder - Behavioral (HalfAdder.vhd)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HalfAdder - Behavioral (HalfAdder.vhd)]", 4, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// [GUI Memory]: 86 MB (+4067kb) [01:13:25]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HalfAdder.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HalfAdder.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("HalfAdder.vhd", 38, 211); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HalfAdder.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Reg - Behavioral (Reg.vhd)]", 5, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Reg - Behavioral (Reg.vhd)]", 5, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HalfAdder.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("HalfAdder.vhd", 104, 229); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 168 seconds
+selectCodeEditor("HalfAdder.vhd", 60, 196, false, false, false, true, false); // bl:J (JPanel:JComponent, cq:JFrame) - Popup Trigger
+selectMenu(RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // U:JideMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(RDIResource.HCodeEditor_DIFF_WITH, "Diff with"); // U:JideMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(RDIResource.HCodeEditor_DIFF_WITH, "Diff with"); // U:JideMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // U:JideMenu (al:JPopupMenu, Popup:JWindow)
+selectCodeEditor("HalfAdder.vhd", 450, 216); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("HalfAdder.vhd", 131, 199); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 502 MB. GUI used memory: 40 MB. Current time: 4/1/16 12:56:46 AM GMT-03:00
+// Elapsed time: 110 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // y:k (I:JPanel, cq:JFrame)
+selectCodeEditor("HalfAdder.vhd", 126, 200); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 173 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cq:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (H:JPanel, b:g)
+// I:x (b:g): Create Source File: addNotify
+// Elapsed time: 18 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "FullAdder-1bit"); // ao:JTextField (JPanel:JComponent, I:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:x)
+dismissDialog("Create Source File"); // I:x (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'g' command handler elapsed time: 24 seconds
+dismissDialog("Add Sources"); // b:g (cq:JFrame)
+// Tcl Message: close [ open {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}} 
+// bF:g (cq:JFrame):  Add Sources  : addNotify
+// L:x (cq:JFrame): Define Module: addNotify
+dismissDialog("Add Sources"); // bF:g (cq:JFrame)
+// Elapsed time: 24 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 0, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B", 1, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cin", 2, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 3, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S", 3, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; in ; false ; 0 ; 0", 3, "in", 1); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 3, "Direction", 1); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; out ; false ; 0 ; 0", 3, "S", 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S", 3, "Port Name", 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cout", 4, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cout ; in ; false ; 0 ; 0", 4, "in", 1); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 4, "Direction", 1); // ab:v (m:JViewport, L:x)
+// Elapsed time: 112 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:x)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // L:x (cq:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 2); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 3, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 3, false, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// Elapsed time: 20 seconds
+selectButton(RDIResource.PropertiesView_PREVIOUS_OBJECT, "Properties_backward"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+selectButton(RDIResource.PropertiesView_NEXT_OBJECT, "Properties_forward"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FullAdder-1bit.vhd]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FullAdder-1bit.vhd]", 3, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FullAdder-1bit.vhd]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FullAdder-1bit.vhd]", 3, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cq:JFrame): TRUE
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, true); // h:JCheckBox (JPanel:JComponent, cq:JFrame): TRUE
+selectCheckBox(PAResourceItoN.MsgView_STATUS_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cq:JFrame): TRUE
+selectCheckBox(PAResourceItoN.MsgView_STATUS_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_STATUS_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cq:JFrame): TRUE
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 2, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 3, false, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MOVE_TO_SIM_SET, "Move to Simulation Sources"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MOVE_TO_SIM_SET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 -norecurse {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}} 
+// TclEventType: DG_GRAPH_STALE
+// bF:g (cq:JFrame):  Move Sources : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset sim_1 -force -norecurse {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}} 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}} 
+// Tcl Message: file delete -force {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd} 
+dismissDialog("Move Sources"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files]", 10); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, FullAdder-1bit.vhd]", 11, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, FullAdder-1bit.vhd]", 11, false, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:g (cq:JFrame): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // h:JCheckBox (JPanel:JComponent, az:g): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:g)
+// 'c' command handler elapsed time: 6 seconds
+// [Engine Memory]: 508 MB (+549kb) [01:28:03]
+dismissDialog("Remove Sources"); // az:g (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files -fileset sim_1 {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sim_1/imports/new/FullAdder-1bit.vhd}} 
+// az:g (cq:JFrame): Remove Sources: addNotify
+// bF:g (az:g):  Remove Sources : addNotify
+// Tcl Message: file delete -force {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sim_1/imports/new/FullAdder-1bit.vhd} 
+dismissDialog("Remove Sources"); // bF:g (az:g)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cq:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (H:JPanel, b:g)
+// I:x (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "FullAdder-1bit"); // ao:JTextField (JPanel:JComponent, I:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:x)
+dismissDialog("Create Source File"); // I:x (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'g' command handler elapsed time: 21 seconds
+dismissDialog("Add Sources"); // b:g (cq:JFrame)
+// Tcl Message: close [ open {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}} 
+// L:x (cq:JFrame): Define Module: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 0, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B", 1, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cin", 2, "Port Name", 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S", 3, "Port Name", 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cout", 4, "Port Name", 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 3, "Direction", 1); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 4, "Direction", 1); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; in ; false ; 0 ; 0", 3, "in", 1); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 3, "Direction", 1); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cout ; in ; false ; 0 ; 0", 4, "in", 1); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 4, "Direction", 1); // ab:v (m:JViewport, L:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:x)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // L:x (cq:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 2); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 155, 134); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("FullAdder-1bit.vhd", 60, 210); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HalfAdder.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("Reg.vhd", 153, 78); // bl:J (JPanel:JComponent, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Basys3 - Behavioral (Basys3.vhd)]", 4); // y:k (I:JPanel, cq:JFrame)
+selectCodeEditor("Reg.vhd", 210, 185); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 18 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("ALU.vhd", 246, 98); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 527 MB. GUI used memory: 41 MB. Current time: 4/1/16 1:09:47 AM GMT-03:00
+// Elapsed time: 34 seconds
+selectCodeEditor("FullAdder-1bit.vhd", 117, 85); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 409 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HalfAdder - Behavioral (HalfAdder.vhd)]", 9, false, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HalfAdder.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 61, 194); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 62 seconds
+selectCodeEditor("FullAdder-1bit.vhd", 43, 164); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder-1bit.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 30, 190); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("FullAdder-1bit.vhd", 34, 196); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 55, 197); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("FullAdder-1bit.vhd", 236, 195); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 280, 199); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 295, 196); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder-1bit.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 7, 207); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder-1bit.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 30, 211); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 282, 196); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("FullAdder-1bit.vhd", 279, 212); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HalfAdder.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("FullAdder-1bit.vhd", 383, 216); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 38 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // y:k (I:JPanel, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 389, 213); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("FullAdder-1bit.vhd", 302, 132); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HalfAdder.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 183, 179); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.xpr}. ]", 1); // ag:k (JViewport:JComponent, cq:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.xpr}. ]", 1); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FullAdder-1bit.vhd]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FullAdder-1bit.vhd]", 3, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("FullAdder-1bit.vhd", 221, 217); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FullAdder-1bit.vhd]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FullAdder-1bit.vhd]", 3, false, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger
+selectCodeEditor("FullAdder-1bit.vhd", 245, 170); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 92 MB (+1562kb) [01:44:35]
+selectTab((HResource) null, (HResource) null, "Reports", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 4); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near -. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd:34]. ]", 12, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\FullAdder-1bit.vhd;-;;-;16;-;line;-;34;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near -. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd:42]. ]", 13, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\FullAdder-1bit.vhd;-;;-;16;-;line;-;42;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near -. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd:34]. ]", 12, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\FullAdder-1bit.vhd;-;;-;16;-;line;-;34;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near -. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd:42]. ]", 13, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\FullAdder-1bit.vhd;-;;-;16;-;line;-;42;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FullAdder-1bit.vhd]", 3, false, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 5, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 5, false, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+dismissFileChooser();
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, FullAdder-1bit.vhd]", 5, false, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 117, 231); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 4); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near -. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd:40]. ]", 12, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\FullAdder-1bit.vhd;-;;-;16;-;line;-;40;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 98, 177); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 4); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near -. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd:42]. ]", 12, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\FullAdder-1bit.vhd;-;;-;16;-;line;-;42;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 258, 210); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 4); // ag:k (JViewport:JComponent, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1061] Parsing VHDL file C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd into library xil_defaultlib [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:1]. ]", 12); // ag:k (JViewport:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 15); // ag:k (JViewport:JComponent, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1061] Parsing VHDL file C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd into library xil_defaultlib [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:1]. ]", 23); // ag:k (JViewport:JComponent, cq:JFrame)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FullAdder_1bit - Behavioral (FullAdder-1bit.vhd)]", 7, true); // y:k (I:JPanel, cq:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FullAdder_1bit - Behavioral (FullAdder-1bit.vhd)]", 7); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FullAdder_1bit - Behavioral (FullAdder-1bit.vhd)]", 7); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FullAdder_1bit - Behavioral (FullAdder-1bit.vhd)]", 7, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FullAdder_1bit - Behavioral (FullAdder-1bit.vhd)]", 7, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FullAdder_1bit - Behavioral (FullAdder-1bit.vhd)]", 7, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FullAdder_1bit - Behavioral (FullAdder-1bit.vhd)]", 7, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 556, 95); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 182, 111); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 197, 150); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 4); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near '. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:22]. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;22;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near '. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:24]. ]", 6, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;24;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("ALU.vhd", 51, 148); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near '. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:22]. ]", 6, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;22;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;20;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 69 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("ALU.vhd", 98, 144); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;20;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;20;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Reg - Behavioral (Reg.vhd)]", 9, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Reg - Behavioral (Reg.vhd)]", 9, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Reg - Behavioral (Reg.vhd)]", 9, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("Reg.vhd", 131, 164); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Reg.vhd", 100, 111); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Reg.vhd", 130, 113); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("ALU.vhd", 90, 93); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 96 seconds
+selectCodeEditor("ALU.vhd", 62, 146); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 92, 143); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;20;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 83, 145); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 69, 141); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;20;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;20;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;20;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 105, 147); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("ALU.vhd", 77, 147); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 99 MB (+2220kb) [01:53:37]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cq:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (H:JPanel, b:g)
+// I:x (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "FullAdder_16"); // ao:JTextField (JPanel:JComponent, I:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:x)
+dismissDialog("Create Source File"); // I:x (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'g' command handler elapsed time: 14 seconds
+dismissDialog("Add Sources"); // b:g (cq:JFrame)
+// Tcl Message: close [ open {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder_16.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder_16.vhd}} 
+// L:x (cq:JFrame): Define Module: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 0, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A ; in ; false ; 0 ; 0", 0, "false", 2); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A ; in ; true ; 0 ; 0", 0, "0", 3); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "15", 0, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B", 1, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B ; in ; false ; 0 ; 0", 1, "false", 2); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B ; in ; true ; 0 ; 0", 1, "0", 3); // ab:v (m:JViewport, L:x)
+// Elapsed time: 54 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "15", 1, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cin", 2, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 3, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S", 3, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; in ; false ; 0 ; 0", 3, "in", 1); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 3, "Direction", 1); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; out ; false ; 0 ; 0", 3, "false", 2); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; out ; true ; 0 ; 0", 3, "0", 3); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "15", 3, "MSB", 3); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 4, (String) null, 0); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cout", 4, "Port Name", 0); // ab:v (m:JViewport, L:x)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cout ; in ; false ; 0 ; 0", 4, "in", 1); // ab:v (m:JViewport, L:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 4, "Direction", 1); // ab:v (m:JViewport, L:x)
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:x)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // L:x (cq:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FullAdder_16 - Behavioral (FullAdder_16.vhd)]", 9, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FullAdder_16 - Behavioral (FullAdder_16.vhd)]", 9, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("FullAdder_16.vhd", 389, 265); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 85, 228); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 44 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder_16.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 245, 194); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder-1bit.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 68, 227); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 83, 228); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("FullAdder_16.vhd", 49, 227); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 21 seconds
+selectCodeEditor("FullAdder_16.vhd", 58, 261); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder_16.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder_16.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("FullAdder-1bit.vhd", 376, 231); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder-1bit.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 18, 256); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 32, 264); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 287, 267); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 323, 262); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder_16.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 342, 264); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 389, 264); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 423, 262); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("FullAdder_16.vhd", 445, 262); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 46, 281); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 32, 277); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 299, 283); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 336, 279); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 356, 281); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 387, 282); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 414, 281); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 433, 281); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 444, 280); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 452, 279); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 33, 66); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("FullAdder_16.vhd", 453, 280); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 300, 60); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("FullAdder_16.vhd", 334, 57); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("FullAdder_16.vhd", 363, 60); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 355, 44); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 527 MB. GUI used memory: 50 MB. Current time: 4/1/16 1:39:48 AM GMT-03:00
+// Elapsed time: 19 seconds
+selectCodeEditor("FullAdder_16.vhd", 363, 57); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("FullAdder_16.vhd", 383, 194); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("FullAdder_16.vhd", 418, 61); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("FullAdder_16.vhd", 390, 59); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("FullAdder_16.vhd", 479, 277); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 35, 5); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 27, 262); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder_16.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder-1bit.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 26 seconds
+selectCodeEditor("FullAdder_16.vhd", 140, 143); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("FullAdder_16.vhd", 190, 146); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 190, 146, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 171, 164); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 171, 164, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 172, 182); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 172, 182, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 172, 194); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 172, 194, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 170, 213); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 170, 213, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 169, 232); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 169, 232, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 168, 253); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 168, 253, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 168, 272); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 168, 272, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 169, 262); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 169, 262, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 174, 297); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 174, 297, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 186, 318); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 186, 318, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 186, 244); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 186, 244, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 182, 266); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 182, 266, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 181, 282); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 181, 282, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 182, 299); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 182, 299, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 182, 316); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 182, 316, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 4); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near 0. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder_16.vhd:46]. ]", 12, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\FullAdder_16.vhd;-;;-;16;-;line;-;46;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near 0. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder_16.vhd:46]. ]", 12, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\FullAdder_16.vhd;-;;-;16;-;line;-;46;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near 7. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder_16.vhd:53]. ]", 19, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\FullAdder_16.vhd;-;;-;16;-;line;-;53;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 328, 146); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 4); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. , [HDL 9-806] Syntax error near 1. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder_16.vhd:47]. ]", 12, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\FullAdder_16.vhd;-;;-;16;-;line;-;47;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 322, 162); // bl:J (JPanel:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_REPLACE_IN_FILES, "Replace in Files..."); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPLACE_IN_FILES
+// Replace in Files: addNotify
+// Elapsed time: 17 seconds
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "[", -1); // JComboBox:JComponent (JPanel:JComponent, a:FindAndReplaceDialog)
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "[", -1); // JComboBox:JComponent (JPanel:JComponent, a:FindAndReplaceDialog)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "(", -1); // JComboBox:JComponent (JPanel:JComponent, a:FindAndReplaceDialog)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find"); // g:a (ButtonPanel:JPanel, a:FindAndReplaceDialog)
+// bF:g (cq:JFrame):  Find in Files : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 527 MB. GUI used memory: 50 MB. Current time: 4/1/16 1:44:07 AM GMT-03:00
+// 'e' command handler elapsed time: 25 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 527 MB. GUI used memory: 48 MB. Current time: 4/1/16 1:44:10 AM GMT-03:00
+dismissDialog("Find in Files"); // bF:g (cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_REPLACE_IN_FILES, "Replace in Files..."); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPLACE_IN_FILES
+// Replace in Files: addNotify
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "[", 1); // JComboBox:JComponent (JPanel:JComponent, a:FindAndReplaceDialog)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_CLOSE, "Close"); // i:a (ButtonPanel:JPanel, a:FindAndReplaceDialog)
+// 'e' command handler elapsed time: 14 seconds
+selectCodeEditor("FullAdder_16.vhd", 514, 134); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 325, 78); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 328, 80); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 486, 60); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 25 seconds
+typeControlKey((HResource) null, "FullAdder_16.vhd", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 477, 75); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 525, 242); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceEtoH.FindInFilesView_CANCEL, "Cancel"); // a:JButton (ButtonPanel:JPanel, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 4); // ag:k (JViewport:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FullAdder_16.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("ALU.vhd", 46, 149); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near if. [C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:20]. ]", 5, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.srcs\sources_1\new\ALU.vhd;-;;-;16;-;line;-;20;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 473, 116); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FullAdder_16.vhd", 537, 251); // bl:J (JPanel:JComponent, cq:JFrame)
