@@ -2,39 +2,23 @@
 # Vivado v2015.4 (64-bit)
 # SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
 # IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
-# Start of session at: Thu Mar 31 23:38:38 2016
-# Process ID: 2256
-# Current directory: C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3212 C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base\Proyecto Base.xpr
-# Log file: C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/vivado.log
-# Journal file: C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base\vivado.jou
+# Start of session at: Fri Apr 08 16:42:50 2016
+# Process ID: 1192
+# Current directory: C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base_jorge/Proyecto Base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7924 C:\Users\Dcc\Dropbox\PUC\Lab Arquitectura de Computadores\Proyecto Base_jorge\Proyecto Base\Proyecto Base.xpr
+# Log file: C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base_jorge/Proyecto Base/vivado.log
+# Journal file: C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base_jorge/Proyecto Base\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.xpr}
-INFO: [Project 1-313] Project file moved from 'C:/Users/Allmoz/Desktop/Proyecto Base' since last save.
+open_project {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base_jorge/Proyecto Base/Proyecto Base.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base_jorge/Proyecto Base'
+INFO: [Project 1-313] Project file moved from 'C:/Users/jnjor/Desktop/ob/Proyecto Base' since last save.
 Scanning sources...
 Finished scanning sources
-INFO: [Project 1-230] Project 'Proyecto Base.xpr' upgraded for this version of Vivado.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
-open_project: Time (s): cpu = 00:00:56 ; elapsed = 00:00:35 . Memory (MB): peak = 734.027 ; gain = 67.348
-close [ open {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/HalfAdder.vhd} w ]
-add_files {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/HalfAdder.vhd}}
-update_compile_order -fileset sources_1
-close [ open {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd} w ]
-add_files {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}}
-update_compile_order -fileset sources_1
-add_files -fileset sim_1 -norecurse {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}}
-import_files -fileset sim_1 -force -norecurse {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}}
-remove_files {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}}
-file delete -force {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}
-update_compile_order -fileset sim_1
-remove_files -fileset sim_1 {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sim_1/imports/new/FullAdder-1bit.vhd}}
-file delete -force {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sim_1/imports/new/FullAdder-1bit.vhd}
-close [ open {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd} w ]
-add_files {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder-1bit.vhd}}
-update_compile_order -fileset sources_1
-close [ open {C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder_16.vhd} w ]
-add_files {{C:/Users/Dcc/Dropbox/PUC/Lab Arquitectura de Computadores/Proyecto Base/Proyecto Base.srcs/sources_1/new/FullAdder_16.vhd}}
-update_compile_order -fileset sources_1
+open_project: Time (s): cpu = 00:01:07 ; elapsed = 00:00:48 . Memory (MB): peak = 727.715 ; gain = 144.219
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 08 17:06:56 2016...
